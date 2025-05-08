@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-# Load CSV
+# Load CSV 
 df = pd.read_csv("part-00000-1eb63d4c-9df8-4b66-a122-deaf1496eb6b-c000.csv")
 
 # Convert date column to datetime
